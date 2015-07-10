@@ -36,4 +36,4 @@ Provided 3 solutions:
 
 3) O(n*log(n)) - average - the third one with the quick sort is not stable because the resulting list will be sorted so most probably not the same as the expected one. But the solution may be acceptable in some cases
 
-When it comes to the custom classes - the example in ```duplicates.people``` shows that scala case classes provide it out of the box :-).
+When it comes to the custom classes - the example in ```duplicates.people``` shows that scala case classes provide it out of the box - because of  ```equals``` and ```hashCode```.
