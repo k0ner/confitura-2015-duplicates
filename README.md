@@ -1,4 +1,7 @@
 # [Confitura 2015](http://tech.viacom.com/warsawsdc/confitura2015/)
+
+[![Build Status](https://travis-ci.org/k0ner/confitura-2015-duplicates.svg?branch=master)](https://travis-ci.org/k0ner/confitura-2015-duplicates)
+
 ## Duplicates
 
 You have *very big* list of elements. Please provide best solution to detect and remove duplicated elements.
