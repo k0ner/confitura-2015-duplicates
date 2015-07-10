@@ -12,7 +12,7 @@ object ONLogNDuplicatesRemoval {
     @tailrec
     def remove(seq: Seq[A], acc: List[A]): List[A] = {
       seq match {
-        case Nil => acc.reverse
+        case Nil => acc.reverse // have to reverse the list because each element was added at the beginning of the list
         case x :: Nil => (x :: acc).reverse
         case x :: y :: xs =>
           if (x != y)

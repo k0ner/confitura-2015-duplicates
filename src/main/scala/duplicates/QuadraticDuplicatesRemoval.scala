@@ -30,7 +30,7 @@ object QuadraticDuplicatesRemoval {
 
     @tailrec
     def removeRec(seq: Seq[A], acc: List[A]): List[A] = seq match {
-      case Nil => acc.reverse
+      case Nil => acc.reverse // have to reverse the list because each element was added at the beginning of the list
       case head :: tail => removeRec(tail, if (acc.contains(head)) acc else head :: acc)
     }
 
